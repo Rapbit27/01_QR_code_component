@@ -4,14 +4,16 @@
     font-family: "outfit", sans-serif;
   }
 
-  .main {
+  html {
+    background-color: #D5E1EF;
+  }
+  
+  main {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
-    background-color: #D5E1EF;
   }
 
   .card {
@@ -59,12 +61,14 @@
     border-radius: 10px;
   }
 
+  footer {
+    display: flex;
+    justify-content: center;
+  }
 
   .attribution {
     font-size: 11px;
     text-align: center;
-    position: absolute;
-    bottom: 0;
   }
 
   .attribution a {
